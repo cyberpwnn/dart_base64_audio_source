@@ -1,6 +1,6 @@
 name: base64_audio_source
 description: A base64 audio source for just audio
-version: 1.0.1
+version: 1.1.0
 homepage: https://github.com/ArcaneArts/base64_audio_source
 environment:
   sdk: '>=2.18.4 <3.0.0'
@@ -8,8 +8,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  just_audio: ^0.9.30
-  universal_io: ^2.0.4
+  just_audio: ">=0.9.30 <0.10.0"
+  universal_io: ">=2.0.4 <3.0.0"
 dev_dependencies:
   flutter_test:
     sdk: flutter

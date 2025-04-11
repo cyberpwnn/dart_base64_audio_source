@@ -2,7 +2,6 @@ library base64_audio_source;
 
 import 'dart:convert';
 
-import 'package:base64_audio_source/util.dart';
 import 'package:flutter/foundation.dart';
 import 'package:just_audio/just_audio.dart';
 
@@ -16,7 +15,7 @@ final AudioFormat kAudioFormatMP3 = AudioFormat(
     extension: "mp3",
     mime: "audio/mpeg",
     encoding: "MP3",
-    isSupported: () => isAndroid() || isWeb() || isIOS());
+    isSupported: () => true); // All platforms support mp3
 
 final AudioFormat kAudioFormatOGG = AudioFormat(
     name: "OGG",
